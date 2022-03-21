@@ -14,7 +14,7 @@ mongoose
     useCreateIndex: true,
     useFindAndModify: false,
   })
-  .then((connection) => console.log(connection.connections));
+  .then(() => console.log('running'));
 
 const port = process.env.PORT || 3000;
 
